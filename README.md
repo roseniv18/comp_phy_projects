@@ -40,7 +40,7 @@ I have organized the CH05 folder like this:
     -   Gamma function
     -   Bessel functions
 
--   **c-extensions/**: C implementations for performance
+-   **C_files/**: C implementations for performance
 
     -   Simpson's rule in C
 
