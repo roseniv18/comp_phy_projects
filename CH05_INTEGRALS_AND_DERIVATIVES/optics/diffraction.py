@@ -1,8 +1,11 @@
 # EXERCISE 5.11 page 174
 
 from numpy import sqrt, sin, cos, pi, linspace
-from gaussxw import gaussxwab
 import matplotlib.pyplot as plt
+import sys
+
+sys.path.insert(1, "../numerical_methods/integrals")
+from gaussxw import gaussxwab
 
 # Wavelength [m]
 lmb = 1.0
@@ -49,7 +52,7 @@ def ratio(x):
 
 # GAUSSIAN QUADRATURE
 def gaussq(f, b):
-    # Calcualte points and weights
+    # Calculate points and weights
     xp, wp = gaussxwab(N, a, b)
     # Integral value
     I_val = 0.0

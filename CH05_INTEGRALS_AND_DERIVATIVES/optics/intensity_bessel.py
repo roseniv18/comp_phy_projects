@@ -12,7 +12,7 @@ a = 0
 # Upper bound of integration
 b = pi
 
-intensity_data = loadtxt("resources/intensity.txt", dtype=float)
+intensity_data = loadtxt("../resources/intensity.txt", dtype=float)
 
 # # Slice width
 # h = (b - a) / (n - 1)

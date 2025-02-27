@@ -2,8 +2,11 @@
 
 from numpy import sin, sqrt, pi, linspace, log10
 from cmath import exp
-from gaussxw import gaussxwab
 from pylab import plt
+import sys
+
+sys.path.insert(1, "../numerical_methods/integrals")
+from gaussxw import gaussxwab
 
 # a) Since the maximum transmission occurs for alpha*u = pi/2, 3pi/2, ...
 # Then the slit separation is alpha*u2 - alpha*u1 = 3pi/2 - pi/2 = pi

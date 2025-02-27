@@ -1,18 +1,12 @@
 # comp_phy_projects
 
-# This repo contains solved problems and projects from Mark Newman's Computational Physics book
-
-# Computational Physics Repository
-
-This is my personla collection of numerical simulations, algorithms, and implementations for solving various physics problems based on Mark Newman's Computational Physics book.
-
 ## Overview
 
-This repository contains implementations of various numerical methods and simulations for physics problems, ranging from classical mechanics to quantum physics. The code is primarily written in Python, with some C extensions for performance-critical sections.
+This is my personal collection of numerical simulations, algorithms, and implementations for solving various physics problems based on Mark Newman's Computational Physics book. The code is primarily written in Python, with some C extensions for sections that I wanted to perform faster.
 
 ## Repository Structure
 
-The repository currently has only 1 chapter of the book. In future, I will add more.
+The repository currently has only 1 chapter of the book (Chapter 5 - Integrals and Derivatives). I will add more in the future.
 I have organized the CH05 folder like this:
 
 -   **numerical-methods/**: Basic numerical algorithms
@@ -55,6 +49,13 @@ I have organized the CH05 folder like this:
 -   **performance-analysis/**: Comparisons of different numerical approaches
 
 -   **resources/**: Files containing input data for some programs
+
+## Demo
+
+![Diffraction Grating](diffraction_grating.png?raw=true "Diffraction Grating")
+![Electric Field with Continuous Charge Distribution](electric_field.png?raw=true "Electric Field with Continuous Charge Distribution")
+![Quantum Harmonic Oscillator](quantum_harmonic_oscillator.png?raw=true "Quantum Harmonic Oscillator")
+![Quantum Harmonic Oscillator Wavefunctions](quantum_harmonic_oscillator_wf.png?raw=true "Quantum Harmonic Oscillator Wavefunctions")
 
 ## Installation
 

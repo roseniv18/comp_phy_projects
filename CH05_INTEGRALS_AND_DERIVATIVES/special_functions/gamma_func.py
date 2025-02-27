@@ -1,5 +1,8 @@
 from numpy import exp, linspace, log as ln
 from pylab import plt
+import sys
+
+sys.path.insert(1, "../numerical_methods/integrals")
 from gaussxw import gaussxwab
 
 x_vals = linspace(0, 5, 100)
@@ -61,7 +64,7 @@ plt.show()
 # for a, g in zip(a_vals, gamma_values):
 #     print(f"Γ({a}) = {g}")
 
-print(f"Γ({3/2}) = {gaussq(gamma_cov, 1.5)}")
+print(f"Γ({3 / 2}) = {gaussq(gamma_cov, 1.5)}")
 
 print(f"Γ({3}) = {gaussq(gamma_cov, 3)}")
 print(f"Γ({6}) = {gaussq(gamma_cov, 6)}")

@@ -3,6 +3,9 @@
 from numpy import sqrt, pi, exp, linspace, zeros, array, float64, int64
 from math import factorial
 import matplotlib.pyplot as plt
+import sys
+
+sys.path.insert(1, "../numerical_methods/integrals")
 from gaussxw import gaussxwab
 
 # STEPS
