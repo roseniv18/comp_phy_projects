@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # comp_phy_projects
 
 # This repo contains solved problems and projects from Mark Newman's Computational Physics book
@@ -65,7 +63,7 @@ I have organized the CH05 folder like this:
 ```bash
 
 git clone https://github.com/roseniv18/comp_phy_projects.git
-cd comp_phy_projects
+cd comp_phy_projects/CH05_INTEGRALS_AND_DERIVATIVES
 
 ```
 
@@ -79,9 +77,7 @@ pip install -r requirements.txt
 
 ```bash
 
-   cd c-extensions
+   cd C_files
    make
 
 ```
-
-> > > > > > > bc2b4bb (first commit)
